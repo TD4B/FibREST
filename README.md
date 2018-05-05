@@ -11,8 +11,10 @@ Dependencies:
 * virtualenv
 
 Linux Guide (Note: Windows is nearly identical, however the virtualenv activate file changes to: ""
+1st After Cloning the repositroy and navigating to the root of the project directory we create our virtual environment.
 ```
-admin> virtualenv project --python=python3.6
+admin> virtualenv project --python=python3.5
 admin> cd project
 admin> source bin/activate
+(project)admin>
 ```
