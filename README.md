@@ -36,3 +36,22 @@ admin> source bin/activate
 (project)admin> python fib_web.py
 ```
 4) Navigate to "http://127.0.0.1:5000"
+
+### Windows Guide (slightly different setup with virtualenv)
+
+1) After Cloning the repositroy and navigating to the root of the project directory we create our virtual environment.
+```
+admin> virtualenv project --python=C:\Python36\python36.exe
+admin> cd project/Scripts
+admin> activate
+(project)admin>
+```
+2) Now install the depencency requirements.
+```
+(project)admin> pip install -r requires.txt
+```
+3) Run the Web Server!
+```
+(project)admin> python fib_web.py
+```
+4) Navigate to "http://127.0.0.1:5000"
