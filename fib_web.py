@@ -17,8 +17,6 @@ from flask import Flask, request,jsonify, render_template
 app = Flask(__name__)
 app.config.from_object(__name__)
 app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
-TEMPLATES_AUTO_RELOAD = True
-app.logger.info
 
 @app.route("/", methods=['GET'])
 def home():
@@ -43,6 +41,6 @@ def calc():
     return jsonify(result)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
     
     
