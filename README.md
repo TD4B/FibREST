@@ -39,7 +39,7 @@ admin> source bin/activate
 ```
 4) Navigate to "http://127.0.0.1:5000"
 
-<img src="https://i.imgur.com/E4tY8zw.gif" width="50" height="50">
+<img src="https://i.imgur.com/E4tY8zw.gif" width="150" height="150">
 
 ### Windows Guide (slightly different setup with virtualenv)
 
