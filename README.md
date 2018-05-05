@@ -38,7 +38,7 @@ admin> source bin/activate
 (project)admin> python fib_web.py
 ```
 4) Navigate to "http://127.0.0.1:5000"
-
+<img src="https://i.imgur.com/E4tY8zw.gif" width="456" height="319">
 ![Interactive Guide](https://i.imgur.com/E4tY8zw.gif)
 
 ### Windows Guide (slightly different setup with virtualenv)
