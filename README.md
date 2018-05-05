@@ -9,3 +9,10 @@ The extension modules come with pre-compiled binaries for both Windows and Linux
 Dependencies:
 * Python 3.5
 * virtualenv
+
+Linux Guide (Note: Windows is nearly identical, however the virtualenv activate file changes to: ""
+```
+admin> virtualenv project --python=python3.6
+admin> cd project
+admin> source bin/activate
+```
