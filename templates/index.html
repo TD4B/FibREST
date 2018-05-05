@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>Fibonacci Rest API Documentation</title>
+
+<xmp theme="united" style="display:none;">
+### Retrieving the Fibonacci Series for Values of n.
+##### Input
+```
+Method: [GET]
+URI: /fib?n=5
+```
+##### Result
+```json
+{
+  "Result": "Success", 
+  "Value": [
+    0, 
+    1, 
+    1, 
+    2, 
+    3
+  ]
+}
+```
+##### Errors 
+For Invalid n parameters or Negative Integers.
+This is hanlded by checking the input arguments for "n"
+This error should respond with the following.
+```json
+{
+  "Details": "Improper Input ASCI Character or Negative Integer!", 
+  "Result": "Error!"
+}
+```
+##### Try it Out!
+<form id="my-form" action="/fib"  method="get">
+<div class="form-group">
+<input id="n" type="text" name="n" class="form-control" placeholder="value of n">
+</div>
+<br>
+<button type="submit" class="btn btn-outline-success">Calculate</button>
+</form>
+</xmp>'
+
+<script src="static/strapdown.js"></script>
+</html>
