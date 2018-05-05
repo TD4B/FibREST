@@ -13,6 +13,11 @@ Dependencies:
 VirtualEnv Depenencies:
 * flask
 
+Obtaining the Project Source Files:
+```
+git clone https://github.com/TD4B/FibREST.git
+```
+
 ### Linux Guide
 
 1) After Cloning the repositroy and navigating to the root of the project directory we create our virtual environment.
