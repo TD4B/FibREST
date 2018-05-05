@@ -26,3 +26,8 @@ admin> source bin/activate
 ```
 (project)admin> pip install -r requires.txt
 ```
+3) Run the Web Server!
+```
+(project)admin> python fib_web.py
+``
+4) Navigate to "http://127.0.0.1:5000"
