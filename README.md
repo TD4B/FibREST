@@ -1,7 +1,7 @@
 # FibREST [![Build Status](https://travis-ci.org/TD4B/FibREST.svg?branch=master)](https://travis-ci.org/TD4B/FibREST)
 A Beautiful Fibonacci Calculator Web App with a REST API Interface.
 
-![Interactive Guide](https://i.imgur.com/E4tY8zw.gif)
+
 
 This Program uses C++ extension modules for the Calculation, this interface can be viewed at:
 https://github.com/TD4B/FibExtensionModule
@@ -38,6 +38,8 @@ admin> source bin/activate
 (project)admin> python fib_web.py
 ```
 4) Navigate to "http://127.0.0.1:5000"
+
+![Interactive Guide](https://i.imgur.com/E4tY8zw.gif)
 
 ### Windows Guide (slightly different setup with virtualenv)
 
