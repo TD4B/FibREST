@@ -6,4 +6,6 @@ https://github.com/TD4B/FibExtensionModule
 
 The extension modules come with pre-compiled binaries for both Windows and Linux operating systems.
 # Installation Instructions.
-
+Dependencies:
+* Python 3.5
+* virtualenv
