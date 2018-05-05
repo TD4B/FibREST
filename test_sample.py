@@ -7,4 +7,4 @@ def test_answer():
   at = round(fib.Fibonacci(5))
   ab = round(fib.Fibonacci(8))
   ac = round(fib.Fibonacci(25))
-  assert (a,b,c) == (at,ab,ac)
+  assert (a, b, c) == (at, ab, ac)
