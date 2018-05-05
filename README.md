@@ -13,7 +13,7 @@ Dependencies:
 VirtualEnv Depenencies:
 * flask
 
-Linux Guide (Note: Windows is nearly identical, however the virtualenv activate file changes to: ""
+### Linux Guide
 
 1) After Cloning the repositroy and navigating to the root of the project directory we create our virtual environment.
 ```
